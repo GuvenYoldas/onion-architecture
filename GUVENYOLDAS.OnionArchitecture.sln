@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1546877A-AE7B-4EC0-B837-1A5550CC3537}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{5278BA70-5685-431F-B63E-B5AD50462AB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{25D41C52-95D8-43E9-8E83-72CDF8BA81E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentations", "Presentations", "{44FFE4C7-6919-4E04-8F33-C88CD6C3CCD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUVENYOLDAS.Core.DBName", "GUVENYOLDAS.Core.DBName\GUVENYOLDAS.Core.DBName.csproj", "{11B894C4-E26F-4EC7-B738-E22D42080EAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUVENYOLDAS.Data.DBName", "GUVENYOLDAS.Data.DBName\GUVENYOLDAS.Data.DBName.csproj", "{249D73D5-4052-4E6E-979F-7B70785AFC0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUVENYOLDAS.Infrastructure.DBName", "GUVENYOLDAS.Infrastructure.DBName\GUVENYOLDAS.Infrastructure.DBName.csproj", "{A313F82D-F120-4E76-8923-F9DC12368162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUVENYOLDAS.API.ExampleProject", "GUVENYOLDAS.API.ExampleProject\GUVENYOLDAS.API.ExampleProject.csproj", "{77D5D98E-845A-4CE1-8A27-8D64BD3A9400}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11B894C4-E26F-4EC7-B738-E22D42080EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B894C4-E26F-4EC7-B738-E22D42080EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B894C4-E26F-4EC7-B738-E22D42080EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B894C4-E26F-4EC7-B738-E22D42080EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249D73D5-4052-4E6E-979F-7B70785AFC0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249D73D5-4052-4E6E-979F-7B70785AFC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249D73D5-4052-4E6E-979F-7B70785AFC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249D73D5-4052-4E6E-979F-7B70785AFC0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A313F82D-F120-4E76-8923-F9DC12368162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A313F82D-F120-4E76-8923-F9DC12368162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A313F82D-F120-4E76-8923-F9DC12368162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A313F82D-F120-4E76-8923-F9DC12368162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D5D98E-845A-4CE1-8A27-8D64BD3A9400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D5D98E-845A-4CE1-8A27-8D64BD3A9400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D5D98E-845A-4CE1-8A27-8D64BD3A9400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D5D98E-845A-4CE1-8A27-8D64BD3A9400}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11B894C4-E26F-4EC7-B738-E22D42080EAE} = {1546877A-AE7B-4EC0-B837-1A5550CC3537}
+		{249D73D5-4052-4E6E-979F-7B70785AFC0E} = {5278BA70-5685-431F-B63E-B5AD50462AB4}
+		{A313F82D-F120-4E76-8923-F9DC12368162} = {25D41C52-95D8-43E9-8E83-72CDF8BA81E8}
+		{77D5D98E-845A-4CE1-8A27-8D64BD3A9400} = {44FFE4C7-6919-4E04-8F33-C88CD6C3CCD1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F129256-0284-4F93-AA59-991153E509A1}
+	EndGlobalSection
+EndGlobal
